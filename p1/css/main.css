@@ -1,0 +1,35 @@
+/******************
+
+default style rule set for CSS
+
+selector {
+  property: value;
+}
+
+*******************/
+
+body {
+  background-color: pink;
+  margin-top: 100px;
+}
+h1 {
+  color: #447295;
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+}
+h2 {
+  color: #447295;
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+}
+p {
+  color: #447295;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+a {
+  color: #7a5a92;
+}
+a:hover {
+  color: #84c5f3;
+}
