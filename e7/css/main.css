@@ -1,0 +1,32 @@
+/******************
+
+default style rule set for CSS
+
+selector {
+  property: value;
+}
+
+*******************/
+
+body {
+  background-color: #f0e3b6;
+  margin-top: 50px;
+}
+h1, h2 {
+  color: #58442b;
+  font-family: 'Teko', sans-serif;
+  text-align: left;
+}
+p {
+  color: #3f301b;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+li {
+  color: #58442b;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+.intro {
+  color: #9f3501;
+}
