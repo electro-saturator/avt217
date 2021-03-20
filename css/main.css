@@ -1,0 +1,81 @@
+/******************
+
+default style rule set for CSS
+
+selector {
+  property: value;
+}
+/*****general styles*****/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #aaf0d1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*****layout styles*****/
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+
+/*****type styles*****/
+h1 {
+  color: #8b4513;
+  font-family: 'Delius', cursive;
+  text-align: center;
+}
+h2 {
+  color: #8b4513;
+  font-family: 'Delius', cursive;
+}
+a {
+  color: #871e56;
+}
+a:hover {
+  color: #ff69b4;
+}
+
+/*****list styles*****/
+li {
+  color: #447295;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+ul {
+ list-style: none;
+}
+
+/*****media queries*****/
+@media screen and (max-width: 700px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  li {
+    font-size: 2rem;
+  }
+}
