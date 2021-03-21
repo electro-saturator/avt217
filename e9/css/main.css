@@ -1,0 +1,152 @@
+#p1 .shape1 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border: 10px solid black;
+  margin: -15px;
+  opacity: .75;
+  float: left;
+  border-radius: 30%;
+}
+#p1 .shape2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 10px solid black;
+  margin: -15px;
+  opacity: .75;
+  float: left;
+  border-radius: 60%;
+}
+#p1 .shape3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 10px solid black;
+  margin: -65px;
+  opacity: .75;
+  float: left;
+  border-radius: 10%;
+}
+#p1 .shape4 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 10px solid black;
+  margin: -25px;
+  opacity: .75;
+  float: left;
+  border-radius: 100%;
+}
+#p2 .shape5 {
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  border: 10px solid black;
+  margin: 1px;
+  opacity: .05;
+  float: left;
+  border-radius: 50%;
+}
+#p2 .shape6 {
+  width: 100px;
+  height: 500px;
+  background-color: blue;
+  border: 10px solid black;
+  margin: -15px;
+  opacity: .75;
+  float: left;
+  border-radius: 100%;
+}
+#p2 .shape7 {
+  width: 500px;
+  height: 700px;
+  background-color: yellow;
+  border: 10px solid black;
+  margin: -100px;
+  opacity: .75;
+  float: left;
+}
+#p2 .shape8 {
+  width: 400px;
+  height: 200px;
+  border: 100px solid black;
+  margin: -5px;
+  opacity: .35;
+  float: left;
+  border-radius: 100%;
+}
+#p3 .shape9 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border: 10px solid black;
+  margin: -100px;
+  opacity: .45;
+  transform:rotate(45deg);
+  float: left;
+}
+#p3 .shapey {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 10px solid black;
+  margin: -5px;
+  opacity: .35;
+  transform:rotate(25deg);
+  float: left;
+}
+#p4 .fillShape {
+  width: 300px;
+  height: 100px;
+  background-color: lightblue;
+  margin: -100px;
+  opacity: .45;
+  transform:rotate(105deg);
+  float: left;
+}
+#p4 .fillShape2 {
+  width: 300px;
+  height: 100px;
+  background-color: brown;
+  margin: -5px;
+  opacity: .35;
+  transform:rotate(55deg);
+  float: left;
+}
+#p4 .fillShape3 {
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  margin: -5px;
+  opacity: .75;
+  border-radius: 50%;
+  float: left;
+}
+#p5 .fillShape4 {
+  width: 300px;
+  height: 100px;
+  background-color: tomato;
+  margin: -25px;
+  opacity: .75;
+  transform:rotate(10deg);
+  float: left;
+}
+#p5 .fillShape5 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: -35px;
+  opacity: .75;
+  border-radius: 10%;
+  float: left;
+}
+#p5 .fillShape6 {
+  width: 300px;
+  height: 100px;
+  background-color: tan;
+  margin: 5px;
+  opacity: .75;
+  transform:rotate(180deg);
+  float: left;
+}
