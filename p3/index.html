@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>worm.hole</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> $(document).ready(function(){
+  $(".hole").click(function(){
+    $(".worm").animate({
+      top: '-=700px'
+  }, 1500);
+  $(".worm").animate({
+      top: '+=700px'
+  }, 1500);
+  });
+});
+</script>
   </head>
   <body>
+    <p><center>Click on the hole.</p></center>
     <div class="worm">
       <div class="body"></div>
       <div class="eye-l"></div>
